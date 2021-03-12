@@ -1,0 +1,5 @@
+# executable program
+main
+
+# all '.o' files
+*.o
