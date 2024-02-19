@@ -1,36 +1,32 @@
-# I - Le projet Snake ASM
-### Snake ASM est un projet qui reprend le jeu du Snake en assembleur :
+# I - The SnakeASM Project
+### The SnakeASM project is a remake of the Snake Game in assembly :
 
-Le code est intégralement écrit dans le langage assembleur NASM. Celui est prévu pour être exécuter sur un ordinateur sous linux avec un processeur x86_64.
+The whole project is written in NASM assembly. It is intended to run on a Linux machine with a x86_64 processor.
 <hr />
 
-# II - Pré-requis
-### Afin de compiler le code, il est nécessaire d'installer le compilateur NASM :
+# II - Prerequisites
+### In order to compile the code, the NASM compiler is needed :
 
-Debian et dérivé :
+Debian-based system :
 ```shell
 $ sudo apt install nasm
 ```
 <hr />
 
-# III - Compiler le programme
-### La compilation du programme se fait automatiquement avec le script `compile.sh` :
+# III - How to compile ?
+### In order to compile the project, simply run the `compile.sh` script :
 
-Exécuter le script `compile.sh` :
+Execute the `compile.sh` script :
 ```shell
 $ ./compile.sh
 ```
-Un exécutable est créé sous le nom de `main`.
+An executable file named `main` must have been created.
 <hr />
 
-# IV - Exécuter le programme
-### L'exécution du programme se fait de la manière suivante :
+# IV - Run the program
+### Simply execute the program by executing the previously created executable :
 
-Exécuter `main` :
+Execute `main` :
 ```shell
 $ ./main
-```
-A noter qu'il est possible d'exécuter le programme juste après la compilation :
-```shell
-$ ./compile.sh && ./main
 ```
